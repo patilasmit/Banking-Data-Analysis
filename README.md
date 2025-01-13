@@ -25,6 +25,3 @@ Transaction: Records of transactions, including amounts, dates, and types.
 Snowflake:
 Data warehousing and management.
 Querying structured data using SQL for efficient analysis.
-
-Power BI:
-Data visualization and interactive dashboards to present insights effectively.
