@@ -1,7 +1,7 @@
 # Banking-Data-Analysis
 The Czechoslovakia Bank data analysis to gain insights and make informed decisions.
 
-This repository contains the analysis of the Czechoslovakia Bank's financial activities over the past 5 years, leveraging Snowflake for cloud-based data warehousing and Power BI for interactive visualizations. The project aims to uncover trends, patterns, and actionable insights to improve the bank's financial operations and decision-making.
+This repository contains the analysis of the Czechoslovakia Bank's financial activities over the past 5 years, leveraging Snowflake for cloud-based data warehousing. The project aims to uncover trends, patterns, and actionable insights to improve the bank's financial operations and decision-making.
 
 # Objectives
 The key objectives of this analysis are:
