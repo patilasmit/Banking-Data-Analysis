@@ -1,64 +1,36 @@
-# 🏦 Banking Analytics Project
-Uncovering Financial Insights Through Data Analytics
+End-To-End-Data-Analytics-Project-Czechoslovakia Banking Financial Data Analysis
+This project is on the datasets manually created by me over a period of so many weeks which covers 1M records generated on a random basis involving 8 tables. A must project to showcase in your resume. Just Try It out.
 
-🌟 Overview
-This project dives into the fascinating world of banking data analytics, where raw data transforms into actionable insights. By using SQL as the primary analytical tool, supported by Excel for data cleaning and validation, the project provides a comprehensive view of client demographics, transaction behaviors, account patterns, and product adoption trends.
-Whether you're a data enthusiast or a finance professional, this project showcases how data analytics can drive smarter decision-making in the banking sector.
+Introduction :
+The Czechoslovakia Bank has provided a dataset containing information about its financial activities for the past 5 years. The dataset consists of the following tables:
 
-🎯 Objective
-The primary goals of this project include:
-✅ Profiling clients based on age, gender, and region to personalize services.
-✅ Detecting fraudulent activities by analyzing unusual transaction patterns.
-✅ Identifying product adoption trends (loans, cards, and account types).
-✅ Empowering data-driven decisions to improve operational efficiency.
+Account: This table contains information about the accounts held by the bank's clients. It includes the account ID, the date the account was opened, the associated client ID, and the account type.
 
-📂 Datasets
-This project uses a rich dataset containing multiple interconnected tables:
+Card: This table contains information about the card issued by the bank. It includes the card ID, the date the card was issued, and the card type.
 
-Account: Information about account types, opening dates, and linked clients.
-Card: Details of issued cards, including card types and issuance dates.
-Client: Demographic information such as age, gender, and district of residence.
-Disposition: Connections between clients and accounts (e.g., account owner, authorized user).
-District: Socio-economic indicators for each district, providing valuable context for analysis.
-Loan: Data on loan amounts, issuance dates, and linked accounts.
-Order: Records of client orders, including dates and descriptions.
-Transaction: Detailed records of transactions, including amounts, dates, and transaction types.
+Client: This table contains information about the bank's clients. It includes the client ID, the client's birthdate, gender, and the district where the client lives.
 
-# 🔍 Key Analyses & Insights
-1️⃣ Client Demographics Analysis
-Goal: Understand the distribution of clients by gender, age, and district.
-Approach:
-Used SQL date functions (YEAR(), CURRENT_DATE) to calculate client ages dynamically.
-Grouped data by gender and age brackets to visualize the demographic structure.
-Insight: Identified high-value customer segments for targeted marketing.
-2️⃣ Transaction Patterns & Trends
-Goal: Analyze transaction behaviors and identify unusual patterns.
-Approach:
-Filtered transactions by type (credit vs. debit) and aggregated data using SUM() and COUNT().
-Detected outliers using statistical techniques to flag potential fraud.
-Insight: Found peak transaction periods and patterns for better resource planning.
-3️⃣ Loan Portfolio Analysis
-Goal: Evaluate loan distribution and client borrowing behavior.
-Approach:
-Linked loan data with client demographics using SQL joins.
-Segmented data by loan amount, interest rates, and repayment periods.
-Insight: Highlighted loan trends across districts and identified high-risk areas.
-4️⃣ Account and Product Usage
-Goal: Understand client adoption of various accounts and card types.
-Approach:
-Used SQL aggregation functions (GROUP BY, COUNT()) to summarize account and card data.
-Analyzed the relationship between product usage and client demographics.
-Insight: Found popular product combinations and identified cross-selling opportunities.
+Disposition: This table contains information about the relationship between clients and their accounts. It includes the disposition ID, the client ID associated with the disposition, and the type of disposition (e.g., owner,authorized person, etc.).
 
-# 🛠 Tools & Technologies
-SQL: Core tool for querying and analyzing datasets.
-Excel: Used for initial data cleaning and correction.
+District: This table contains information about the various districts in Czechoslovakia. It includes the district ID, the name of the district, and various demographic and economic indicators for the district.
 
-# 🚀 Results & Impact
-Developed a comprehensive profile of the bank’s client base, highlighting key demographics and financial behaviors.
-Flagged anomalous transactions to strengthen fraud detection measures.
-Identified high-value customers and underperforming products for improved marketing strategies.
-Offered actionable insights for operational efficiency and decision-making.
+Loan: This table contains information about the loans issued by the bank. It includes the loan ID, the date the loan was issued, the account ID associated with the loan, the amount of the loan.
 
-# 📊 Key Takeaways
-This project showcases the power of SQL and data analytics in transforming raw banking data into impactful insights. By diving deep into client behaviors, transaction patterns, and product adoption, the project not only provides meaningful results but also demonstrates a replicable framework for solving real-world financial problems.
+Order: This table contains information about the orders issued by the bank's clients. It includes the order ID, the account ID associated with the order, the date the order was issued, and a description of the order.
+
+Transaction: This table contains information about the transactions made by the bank's clients. It includes the transaction ID, the account ID associated with the transaction, the transaction date, the type of transaction, and the transaction amount.
+
+Ad-hoc Data Analysis :
+The Czechoslovakia Bank wants to analyse its financial data to gain insights and make informed decisions. The bank needs to identify trends, patterns, and potential risks in its financial operations. They also want to explore the possibility of introducing new financial products or services based on their analysis.
+
+The bank has identified the following questions as important for their analysis:
+
+What is the demographic profile of the bank's clients and how does it vary across districts?
+How the banks have performed over the years. Give their detailed analysis year & month-wise.
+What are the most common types of accounts and how do they differ in terms of usage and profitability?
+Which types of cards are most frequently used by the bank's clients and what is the overall profitability of the credit card business?
+What are the major expenses of the bank and how can they be reduced to improve profitability?
+What is the bank’s loan portfolio and how does it vary across different purposes and client segments?
+How can the bank improve its customer service and satisfaction levels?
+Can the bank introduce new financial products or services to attract more customers and increase profitability?
+The objective of this analysis is to provide the Czechoslovakia Bank with actionable insights that can help them make informed decisions about their financial operations. The analysis will involve data cleaning, exploratory data analysis, and predictive modelling to identify patterns and trends in the data.
